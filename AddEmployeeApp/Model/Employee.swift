@@ -9,6 +9,6 @@ import SwiftUI
 
 struct Employee {
 	let id: UUID
-	let name: String
-	let phone: String	
+	var name: String
+	var phone: String	
 }
