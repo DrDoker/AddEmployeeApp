@@ -26,6 +26,7 @@ struct ContentView: View {
 					Image(systemName: "play")
 				}
 		}
+
 	}
 }
 

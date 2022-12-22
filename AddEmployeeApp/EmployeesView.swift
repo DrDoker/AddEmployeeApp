@@ -42,19 +42,19 @@ struct EmployeesView: View {
 						Image(systemName: "plus.circle.fill")
 						Text("Add Employee")
 					}
-					.padding(.vertical, 18)
 				}
+				.frame(height: 56)
 				.frame(maxWidth: .infinity)
-				.font(Font.system(size: 20, weight: .semibold))
+				.font(Font.system(size: 18, weight: .semibold))
 				.foregroundColor(.black)
 				.background {
 					Color(UIColor(red: 1, green: 0.721, blue: 0.188, alpha: 1))
-						.cornerRadius(30)
+						.cornerRadius(80)
 				}
-				.padding(.horizontal, 25)
+				.padding(.horizontal, 20)
 			}
 			.padding(.top, 30)
-			.padding(.bottom, 30)
+			.padding(.bottom, 24)
 			.navigationBarTitle("Employees")
 		}
 	}
