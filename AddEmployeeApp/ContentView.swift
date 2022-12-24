@@ -13,19 +13,20 @@ struct ContentView: View {
 		TabView {
 			EmployeesView()
 				.tabItem {
-					Image(systemName: "play")
+					Image(systemName: "tray.2.fill")
 				}
 			
 			EmployeesView()
 				.tabItem {
-					Image(systemName: "play")
+					Image(systemName: "list.bullet.rectangle.fill")
 				}
 			
 			EmployeesView()
 				.tabItem {
-					Image(systemName: "play")
+					Image(systemName: "person.fill")
 				}
 		}
+		.tint(Color(UIColor(red: 1, green: 0.721, blue: 0.188, alpha: 1)))
 
 	}
 }

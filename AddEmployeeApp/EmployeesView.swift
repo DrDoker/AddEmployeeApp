@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct EmployeesView: View {
+	
+	@State private var isPresented = false
+	
 	var items: [Employee] = [
 		Employee(id: .init(), name: "Rick", phone: "+48503456324"),
 		Employee(id: .init(), name: "Rick", phone: "+48503456324"),
@@ -36,7 +39,7 @@ struct EmployeesView: View {
 				.listStyle(.plain)
 				
 				Button {
-					
+					isPresented.toggle()
 				} label: {
 					HStack {
 						Image(systemName: "plus.circle.fill")
@@ -56,6 +59,11 @@ struct EmployeesView: View {
 			.padding(.top, 30)
 			.padding(.bottom, 24)
 			.navigationBarTitle("Employees")
+			.sheet(isPresented: $isPresented) {
+				AddEmployeeView()
+					.presentationDetents([.fraction(0.5)])
+					.presentationDragIndicator(SwiftUI.Visibility.visible)
+			}
 		}
 	}
 }
