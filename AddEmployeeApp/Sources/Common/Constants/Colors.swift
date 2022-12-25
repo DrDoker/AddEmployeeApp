@@ -11,6 +11,7 @@ enum Colors: String {
 	case enableButton = "enableButton"
 	case disableButton = "disableButton"
 	case backgroundTextField = "backgroundTextField"
+	case notEmptyBackgroundTextField = "notEmptyBackgroundTextField"
 	case placeholderTextField = "placeholderTextField"
 	case tittleButton = "tittleButton"
 	case employeePhoneList = "employeePhoneList"

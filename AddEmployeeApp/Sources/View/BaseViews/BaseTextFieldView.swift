@@ -16,7 +16,12 @@ struct BaseTextFieldView: View {
 		ZStack {
 			RoundedRectangle(cornerRadius: 8)
 				.frame(height: 56)
-				.foregroundColor(Colors.backgroundTextField.color)
+				.foregroundColor(
+					!$text.wrappedValue.isEmpty
+					? Colors.notEmptyBackgroundTextField.color
+					: Colors.backgroundTextField.color
+				)
+
 			VStack(alignment: .leading, spacing: 2)  {
 				if !$text.wrappedValue.isEmpty {
 					Text(placeholder)
