@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct AddEmployeeAppApp: App {
+struct AddEmployeeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabBarView()
         }
     }
 }

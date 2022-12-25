@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct Employee {
-	let id: UUID
+	let id = UUID()
 	var name: String
 	var phone: String	
 }
+

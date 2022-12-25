@@ -7,24 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C5CD4F20295488EF002CBA6E /* AddEmployeeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD4F1F295488EF002CBA6E /* AddEmployeeAppApp.swift */; };
-		C5CD4F22295488EF002CBA6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD4F21295488EF002CBA6E /* ContentView.swift */; };
+		C5CD4F20295488EF002CBA6E /* AddEmployeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD4F1F295488EF002CBA6E /* AddEmployeeApp.swift */; };
+		C5CD4F22295488EF002CBA6E /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD4F21295488EF002CBA6E /* TabBarView.swift */; };
 		C5CD4F24295488F1002CBA6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5CD4F23295488F1002CBA6E /* Assets.xcassets */; };
 		C5CD4F27295488F1002CBA6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5CD4F26295488F1002CBA6E /* Preview Assets.xcassets */; };
 		C5CD4F2E2954890D002CBA6E /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD4F2D2954890D002CBA6E /* Employee.swift */; };
 		C5CD4F31295493BE002CBA6E /* EmployeesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD4F30295493BE002CBA6E /* EmployeesView.swift */; };
 		C5CD4F332954A656002CBA6E /* AddEmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD4F322954A656002CBA6E /* AddEmployeeView.swift */; };
+		C5CD4F38295751BE002CBA6E /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD4F37295751BE002CBA6E /* Strings.swift */; };
+		C5F99CB029576AD1000450AE /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F99CAF29576AD1000450AE /* Fonts.swift */; };
+		C5F99CB229576EBD000450AE /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F99CB129576EBD000450AE /* Images.swift */; };
+		C5F99CB429576EC9000450AE /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F99CB329576EC9000450AE /* Colors.swift */; };
+		C5F99CB929579094000450AE /* BaseButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F99CB829579094000450AE /* BaseButtonView.swift */; };
+		C5F99CBB2957CF1E000450AE /* BaseTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F99CBA2957CF1E000450AE /* BaseTextFieldView.swift */; };
+		C5F99CBD2957D455000450AE /* EmployeesItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F99CBC2957D455000450AE /* EmployeesItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C5CD4F1C295488EF002CBA6E /* AddEmployeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddEmployeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5CD4F1F295488EF002CBA6E /* AddEmployeeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeAppApp.swift; sourceTree = "<group>"; };
-		C5CD4F21295488EF002CBA6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C5CD4F1F295488EF002CBA6E /* AddEmployeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeApp.swift; sourceTree = "<group>"; };
+		C5CD4F21295488EF002CBA6E /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		C5CD4F23295488F1002CBA6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5CD4F26295488F1002CBA6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C5CD4F2D2954890D002CBA6E /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		C5CD4F30295493BE002CBA6E /* EmployeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesView.swift; sourceTree = "<group>"; };
 		C5CD4F322954A656002CBA6E /* AddEmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeView.swift; sourceTree = "<group>"; };
+		C5CD4F37295751BE002CBA6E /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		C5F99CAF29576AD1000450AE /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		C5F99CB129576EBD000450AE /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		C5F99CB329576EC9000450AE /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		C5F99CB829579094000450AE /* BaseButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButtonView.swift; sourceTree = "<group>"; };
+		C5F99CBA2957CF1E000450AE /* BaseTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextFieldView.swift; sourceTree = "<group>"; };
+		C5F99CBC2957D455000450AE /* EmployeesItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,13 +71,8 @@
 		C5CD4F1E295488EF002CBA6E /* AddEmployeeApp */ = {
 			isa = PBXGroup;
 			children = (
-				C5CD4F1F295488EF002CBA6E /* AddEmployeeAppApp.swift */,
-				C5CD4F21295488EF002CBA6E /* ContentView.swift */,
-				C5CD4F30295493BE002CBA6E /* EmployeesView.swift */,
-				C5CD4F322954A656002CBA6E /* AddEmployeeView.swift */,
-				C5CD4F2F29548915002CBA6E /* Model */,
-				C5CD4F23295488F1002CBA6E /* Assets.xcassets */,
-				C5CD4F25295488F1002CBA6E /* Preview Content */,
+				C5CD4F342957160F002CBA6E /* Sources */,
+				C5CD4F352957171F002CBA6E /* Resources */,
 			);
 			path = AddEmployeeApp;
 			sourceTree = "<group>";
@@ -82,6 +91,82 @@
 				C5CD4F2D2954890D002CBA6E /* Employee.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C5CD4F342957160F002CBA6E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C5F99CAD29576A77000450AE /* App */,
+				C5F99CAC29576A49000450AE /* Common */,
+				C5F99CAB295769D4000450AE /* View */,
+				C5CD4F2F29548915002CBA6E /* Model */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C5CD4F352957171F002CBA6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C5CD4F23295488F1002CBA6E /* Assets.xcassets */,
+				C5CD4F25295488F1002CBA6E /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C5F99CA929575C11000450AE /* Employees */ = {
+			isa = PBXGroup;
+			children = (
+				C5CD4F30295493BE002CBA6E /* EmployeesView.swift */,
+				C5CD4F322954A656002CBA6E /* AddEmployeeView.swift */,
+				C5F99CBC2957D455000450AE /* EmployeesItemView.swift */,
+			);
+			path = Employees;
+			sourceTree = "<group>";
+		};
+		C5F99CAA29576856000450AE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C5CD4F37295751BE002CBA6E /* Strings.swift */,
+				C5F99CAF29576AD1000450AE /* Fonts.swift */,
+				C5F99CB129576EBD000450AE /* Images.swift */,
+				C5F99CB329576EC9000450AE /* Colors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C5F99CAB295769D4000450AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C5F99CB529579012000450AE /* BaseViews */,
+				C5CD4F21295488EF002CBA6E /* TabBarView.swift */,
+				C5F99CA929575C11000450AE /* Employees */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C5F99CAC29576A49000450AE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C5F99CAA29576856000450AE /* Constants */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C5F99CAD29576A77000450AE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C5CD4F1F295488EF002CBA6E /* AddEmployeeApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C5F99CB529579012000450AE /* BaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				C5F99CB829579094000450AE /* BaseButtonView.swift */,
+				C5F99CBA2957CF1E000450AE /* BaseTextFieldView.swift */,
+			);
+			path = BaseViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,11 +239,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F99CB029576AD1000450AE /* Fonts.swift in Sources */,
+				C5F99CB429576EC9000450AE /* Colors.swift in Sources */,
+				C5F99CBB2957CF1E000450AE /* BaseTextFieldView.swift in Sources */,
 				C5CD4F31295493BE002CBA6E /* EmployeesView.swift in Sources */,
 				C5CD4F332954A656002CBA6E /* AddEmployeeView.swift in Sources */,
-				C5CD4F22295488EF002CBA6E /* ContentView.swift in Sources */,
+				C5CD4F38295751BE002CBA6E /* Strings.swift in Sources */,
+				C5F99CB929579094000450AE /* BaseButtonView.swift in Sources */,
+				C5F99CBD2957D455000450AE /* EmployeesItemView.swift in Sources */,
+				C5CD4F22295488EF002CBA6E /* TabBarView.swift in Sources */,
+				C5F99CB229576EBD000450AE /* Images.swift in Sources */,
 				C5CD4F2E2954890D002CBA6E /* Employee.swift in Sources */,
-				C5CD4F20295488EF002CBA6E /* AddEmployeeAppApp.swift in Sources */,
+				C5CD4F20295488EF002CBA6E /* AddEmployeeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +378,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AddEmployeeApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AddEmployeeApp/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = N2XAP4CLZT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -315,7 +407,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AddEmployeeApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AddEmployeeApp/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = N2XAP4CLZT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

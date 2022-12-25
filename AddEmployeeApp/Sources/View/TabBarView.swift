@@ -7,32 +7,31 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TabBarView: View {
 	
 	var body: some View {
 		TabView {
 			EmployeesView()
 				.tabItem {
-					Image(systemName: "tray.2.fill")
+					Images.tray.systemImage
 				}
 			
 			EmployeesView()
 				.tabItem {
-					Image(systemName: "list.bullet.rectangle.fill")
+					Images.list.systemImage
 				}
 			
 			EmployeesView()
 				.tabItem {
-					Image(systemName: "person.fill")
+					Images.person.systemImage
 				}
 		}
-		.tint(Color(UIColor(red: 1, green: 0.721, blue: 0.188, alpha: 1)))
-
+		.tint(Colors.enableButton.color)
 	}
 }
 
 struct ContentView_Previews: PreviewProvider {
 	static var previews: some View {
-		ContentView()
+		TabBarView()
 	}
 }
